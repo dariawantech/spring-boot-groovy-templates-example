@@ -70,7 +70,8 @@
                         <year>${project.inceptionYear}</year>
                         <email>hello@dariawan.com</email>
                     </properties>
-                    <excludes>
+                    <excludes>                        
+                        <exclude>.mvn/**</exclude>
                         <exclude>.hg/**</exclude>
                         <exclude>.git/**</exclude>
                         <exclude>.gitignore/**</exclude>
@@ -88,6 +89,7 @@
                         <exclude>**/js/**</exclude>
                         <exclude>**/css/**</exclude>
                         <exclude>**/src/main/resources/**</exclude>
+                        <exclude>**/src/main/sql/**</exclude>
                         <exclude>**/nb-configuration.xml</exclude>
                         <exclude>**/nbactions.xml</exclude>
                     </excludes>
